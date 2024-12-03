@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Adam Asmaca</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <img src="assets/adamasmaca.png" class="ortala">
+    <div>
+        <p class="soru-turu" id="soru-turu"></p>
+    </div>
+    <div class="adamasmaca" id="adamasmaca">
+        <img src="assets/game-1.png" class="as">
+    </div>
+
+    <div class="cevap" id="cevap">
+        <div class="cevap-konum"></div>
+
+    </div>
+
+    <div class="klavye" id="harfler">
+        <button class="harf" onclick="tahmin(this)" name="harf">A</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">B</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">C</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">Ç</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">D</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">E</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">F</button>
+        <br>
+        <button class="harf" onclick="tahmin(this)" name="harf">G</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">H</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">I</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">İ</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">J</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">K</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">L</button>
+        <br>
+        <button class="harf" onclick="tahmin(this)" name="harf">M</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">N</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">O</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">Ö</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">P</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">R</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">S</button>
+        <br>
+        <button class="harf" onclick="tahmin(this)" name="harf">Ş</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">T</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">U</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">Ü</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">V</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">Y</button>
+        <button class="harf" onclick="tahmin(this)" name="harf">Z</button>
+    </div>
+    <div class="soru" id="secim">
+        <p>Soru türünü seçin:</p>
+        <input type="radio" id="sehir" name="sec" value="sehir">
+        <label for="sehir">Şehir</label><br>
+        <input type="radio" id="ulke" name="sec" value="ulke">
+        <label for="ulke">Ülke</label><br>
+        <input type="radio" id="hayvan" name="sec" value="hayvan">
+        <label for="hayvan">Hayvan</label>
+    </div>
+    <div class="start">
+        <button class="baslat" id="baslat" onclick="baslat(this)" name="harf">OYUNU BAŞLAT</button>
+    </div>
+    <div id="tekraroyna" class="tekrar-konum">
+        <a href="adamasmaca.html" id="f5"></a>
+    </div>
+    <div id="kalp">
+        <img src="assets/heart.png" class="kalp" style="margin-left: 0px;">
+        <img src="assets/heart.png" class="kalp" style="margin-left: 25px;">
+        <img src="assets/heart.png" class="kalp" style="margin-left: 50px;">
+        <img src="assets/heart.png" class="kalp" style="margin-left: 75px;">
+        <img src="assets/heart.png" class="kalp" style="margin-left: 105px;">
+        <img src="assets/heart.png" class="kalp" style="margin-left: 130px;">
+    </div>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
